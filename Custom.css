@@ -173,7 +173,15 @@ body {
 	padding-right: 47px;
 	padding-left: 64px;
 }
-
+.socialButton1 {
+	background-color: #ffffff;
+	border-radius: 50px;
+	text-indent: 90px;
+	border: 1px solid #000000;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 22px;
+}
 .socialButton img {
 	padding-right: 30px;
 	padding-left: 20px;
@@ -2449,11 +2457,12 @@ input[type="range"] {
 
 .btnFacebook {
 	/* width: 265px;
-																		height:35px; */
+	height:35px; */
 	border-radius: 20px;
 	color: #3b5998;
 	/*color:white;
-																		*/
+	*/
+	font-family: "Mulish";
 	background-color: #fff;
 	border: 1px solid #dadce0;
 	text-align: center;
@@ -2922,4 +2931,7 @@ input[type="range"] {
 }
 select option {
 	cursor: pointer;
+}
+.nsm7Bb-HzV7m-LgbsSe {
+	font-family: "Raleway", sans-serif !important;
 }
