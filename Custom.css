@@ -422,7 +422,8 @@ body {
 	padding-right: 10%;
 }
 .pr-r20 {
-	padding-right: 8rem !important;
+	padding-right: 4rem !important;
+	padding-left: 4rem !important;
 }
 
 .body-bg-home {
