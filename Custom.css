@@ -1530,7 +1530,7 @@ div.aeprogress-bar-none {
 }
 
 .animated {
-	width: 101%;
+	width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -3441,15 +3441,13 @@ select option {
 		max-width: 100%;
 	}
 }
- @media screen and (min-width: 576px)
-{
-	.rightremove{
+@media screen and (min-width: 576px) {
+	.rightremove {
 		text-align: right !important;
 	}
 }
-@media screen and (max-width: 576px)
-{
-	.paddingtop{
+@media screen and (max-width: 576px) {
+	.paddingtop {
 		padding-top: 3rem !important;
 	}
 }
