@@ -1336,11 +1336,11 @@ div.imgalign {
 		text-align: left !important;
 	}
 }
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
 	.accountsetting {
 		width: 662px !important;
 	}
-}
+} */
 @media screen and (min-width: 1024px) {
 	/* your CSS here */
 	div.pl-12 {
@@ -1580,6 +1580,7 @@ div.aeprogress-bar-none {
 	padding-left: 35px;
 	margin-bottom: -2px;
 	cursor: pointer;
+	overflow-wrap: normal;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -3465,5 +3466,23 @@ select option {
 	}
 	.requestapproval-ml {
 		margin-left: -50px !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.customwidth {
+		width: 190px !important;
+	}
+}
+@media screen and (min-width: 361px) and (max-width: 500px) {
+	.customwidth {
+		width: 240px !important;
+	}
+}
+@media screen and (max-width: 575px) {
+	.w100 {
+		width: 100% !important;
+	}
+	.p-10 {
+		padding-left: 10px !important;
 	}
 }
