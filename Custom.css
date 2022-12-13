@@ -3451,3 +3451,19 @@ select option {
 		padding-top: 3rem !important;
 	}
 }
+@media screen and (max-width: 510px) {
+	.consultation {
+		padding-left: 80px !important;
+	}
+	.requestapproval {
+		padding-left: 56px !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.consultation-ml {
+		margin-left: -40px !important;
+	}
+	.requestapproval-ml {
+		margin-left: -50px !important;
+	}
+}
