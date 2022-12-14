@@ -118,7 +118,7 @@ body {
 .note-card {
 	background: #ffffff;
 	border-radius: 10px;
-	width: 565px;
+	width: 465px;
 	height: 100px;
 	display: flex;
 	align-items: center;
@@ -3130,6 +3130,7 @@ input[type="range"] {
 	background: black;
 	content: "";
 	border-radius: 5px;
+	z-index: 1;
 }
 
 .lunchs:after {
@@ -3459,6 +3460,9 @@ select option {
 	.requestapproval {
 		padding-left: 56px !important;
 	}
+	.w18 {
+		width: 18rem !important;
+	}
 }
 @media screen and (max-width: 360px) {
 	.consultation-ml {
@@ -3466,6 +3470,9 @@ select option {
 	}
 	.requestapproval-ml {
 		margin-left: -50px !important;
+	}
+	.aebuttonstripe {
+		width: 250px;
 	}
 }
 @media screen and (max-width: 360px) {
@@ -3484,5 +3491,16 @@ select option {
 	}
 	.p-10 {
 		padding-left: 10px !important;
+	}
+	.b2 {
+		padding-left: 37px !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.managebuttonresp {
+		margin-left: -15px !important;
+	}
+	.marginleftzero {
+		margin-left: 0 !important;
 	}
 }
