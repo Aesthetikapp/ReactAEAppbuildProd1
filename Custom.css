@@ -3526,3 +3526,28 @@ select option {
 		right: 0;
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.width {
+		width: 100% !important;
+	}
+	.padding {
+		padding: 0px 0px 0px 0px !important;
+	}
+	.paddingleft {
+		padding-left: 10px !important;
+		padding-top: 70px !important;
+	}
+	.marginleft {
+		margin-left: -80px !important;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+	.paddingleft {
+		padding-left: 140px !important;
+		padding-top: 70px !important;
+	}
+	.marginleft {
+		margin-left: -80px !important;
+	}
+}
