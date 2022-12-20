@@ -3599,3 +3599,13 @@ select option {
 		margin-left: -80px !important;
 	}
 }
+.fm-w60-s22 {
+	font-family: "Raleway" !important;
+	font-weight: 600 !important;
+	font-size: 22px !important;
+}
+.fm-w4-s20 {
+	font-family: "mulish" !important;
+	font-weight: 400 !important;
+	font-size: 20px !important;
+}
