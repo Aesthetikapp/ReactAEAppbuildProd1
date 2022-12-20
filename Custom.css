@@ -1812,6 +1812,26 @@ div.aeprogress-bar-none {
 	border: 0px;
 	outline: none;
 }
+.ptab .active::after {
+	margin-top: 14px;
+	margin-left: 40px;
+	display: block;
+	content: " ";
+	height: 3px;
+	position: absolute;
+	border-radius: 5px;
+	width: 40px;
+	background: black;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
 /* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
 																		color: orangered !important;
 																		background-color: #fff !important;
@@ -1836,7 +1856,10 @@ div.aeprogress-bar-none {
 .tab-content .nav-item a {
 	color: #000000;
 }
-
+.tab-content {
+	background: #f9f9fb;
+	border-radius: 0px 0px 0px 10px;
+}
 .roundedWhite-80p {
 	background-color: #ffffff;
 	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.02);
@@ -3518,12 +3541,37 @@ select option {
 @-webkit-keyframes slide {
 	100% {
 		right: 0;
+		width: 100%;
 	}
 }
 
 @keyframes slide {
 	100% {
 		right: 0;
+		width: 100%;
+	}
+}
+
+.slider1 {
+	position: absolute;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	animation: slide1 1s forwards;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation: slide1 1s forwards;
+}
+
+@-webkit-keyframes slide1 {
+	100% {
+		right: 100%;
+	}
+}
+
+@keyframes slide1 {
+	100% {
+		right: 100%;
 	}
 }
 
