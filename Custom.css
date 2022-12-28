@@ -228,6 +228,10 @@ body {
 	font-weight: 600;
 	font-size: 18px;
 }
+.fm-w7-s16 {
+	font-weight: 600;
+	font-size: 16px;
+}
 
 .fm-w6-s16 {
 	font-weight: 600;
@@ -1832,11 +1836,38 @@ div.aeprogress-bar-none {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 }
-/* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-																		color: orangered !important;
-																		background-color: #fff !important;
-																		border-color: none !important;
-																		} */
+.ptab1 .active::after {
+	margin-top: 14px;
+	margin-left: 25px;
+	display: block;
+	content: " ";
+	height: 3px;
+	position: absolute;
+	border-radius: 5px;
+	width: 53px;
+	background: black;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.ptab1::after {
+	margin-top: 65px;
+	margin-left: -21px;
+	display: block;
+	content: " ";
+	height: 0.5px;
+	position: absolute;
+	border-radius: 5px;
+	width: 107%;
+	background: #d6d6d6;
+}
 
 .list-tab .disabled {
 	font-size: 25px;
@@ -1856,10 +1887,7 @@ div.aeprogress-bar-none {
 .tab-content .nav-item a {
 	color: #000000;
 }
-.tab-content {
-	background: #f9f9fb;
-	border-radius: 0px 0px 0px 10px;
-}
+
 .roundedWhite-80p {
 	background-color: #ffffff;
 	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.02);
@@ -3608,4 +3636,12 @@ select option {
 	font-family: "mulish" !important;
 	font-weight: 400 !important;
 	font-size: 20px !important;
+}
+.elipsis {
+	display: -webkit-box;
+	max-width: 400px;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
